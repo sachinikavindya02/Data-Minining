@@ -118,3 +118,6 @@ dim(test_data)
 cor.test(train_data$rm,
          train_data$medv,
          method = "pearson")
+model1 <- lm(medv ~ rm, data = train_data)
+
+summary(model1)
