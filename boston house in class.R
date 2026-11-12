@@ -1,6 +1,6 @@
 sum(is.na(train))
 dim(data)
-names(data)
+
 sum(duplicated(data))
 summary(train)
 sapply(train, function(x)length(unique(x)))
