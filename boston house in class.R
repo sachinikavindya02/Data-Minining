@@ -1,5 +1,5 @@
 sum(is.na(train))
-dim(data)
+
 
 sum(duplicated(data))
 summary(train)
